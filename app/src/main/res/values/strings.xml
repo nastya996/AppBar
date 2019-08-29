@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">AppBar</string>
+    <string name="settings">Settings</string>
+    <string name="notes">Записная книжка</string>
+    <string name="calendar">Сроки задач</string>
+    <string name="spinner">Страны-города-улицы</string>
+    <string name="checkboxes">Оплата</string>
+    <string name="photoalbum">Фотоальбом</string>
+    <string name="subscription">Подписка</string>
+    <string name="splashscreen">SplashScreen</string>
+
+    <!-- notes -->
+    <string name="save">Сохранить</string>
+    <string name="note_hint">Введите текст записки, например, купить молоко и хлеб!</string>
+    <string name="success_saved">Данные сохранены!</string>
+
+    <!-- calendar -->
+    <string name="datetime_start">Дата-время старта задачи:</string>
+    <string name="datetime_end">Дата-время окончания задачи:</string>
+    <string name="date_error">Дата старта задачи должна предшествовать дате окончания задачи!</string>
+    <string name="ok">OK</string>
+
+    <!-- spinner -->
+    <string name="show_address">Показать адрес</string>
+    <string name="russia">Россия</string>
+    <string name="ukraine">Украина</string>
+    <string name="belarus">Беларусь</string>
+    <string name="moscow">Москва</string>
+    <string name="spb">Санкт-Петербург</string>
+    <string name="kazan">Казань</string>
+    <string name="kiev">Киев</string>
+    <string name="odessa">Одесса</string>
+    <string name="kharkov">Харьков</string>
+    <string name="minsk">Минск</string>
+    <string name="gomel">Гомель</string>
+    <string name="torzhok">Торжок</string>
+    <string-array name="countries">
+        <item>@string/russia</item>
+        <item>@string/ukraine</item>
+        <item>@string/belarus</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>@string/moscow</item>
+        <item>@string/spb</item>
+        <item>@string/kazan</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>@string/kiev</item>
+        <item>@string/odessa</item>
+        <item>@string/kharkov</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>@string/minsk</item>
+        <item>@string/gomel</item>
+        <item>@string/torzhok</item>
+    </string-array>
+
+    <!-- checkboxes -->
+    <string name="input_money">Ввод денег</string>
+    <string name="payment_info">Информация об оплате</string>
+    <string name="bank_card">С банковской карты</string>
+    <string name="mobile_phone">С мобильного телефона</string>
+    <string name="cash">Наличными по адресу</string>
+
+    <!-- photoalbum -->
+    <string name="back">Назад</string>
+    <string name="next">Вперед</string>
+
+    <!-- subscription -->
+    <string name="username">Имя пользователя</string>
+    <string name="email">Электронная почта</string>
+    <string name="submit">OK</string>
+    <string name="clear">Очистить</string>
+    <string name="status">Подписка на рассылку успешно оформлена для пользователя %s на электронный адрес %s</string>
+
+    <!-- splashscreen -->
+    <string name="title_activity_splash_screen">Welcome Aboard!</string>
+
+</resources>
